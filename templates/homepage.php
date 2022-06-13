@@ -20,38 +20,35 @@
     <!-- Main Content-->
     <main class="container px-4 px-lg-5">
 
+        <!-- About -->
+        <div class="container px-4 px-lg-5">
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-md-10 col-lg-8 col-xl-7">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
+                        </div>
+                    </div>
+                </div>
 
-
-
-        
-    <div class="container px-4 px-lg-5">
+        <!-- Form contact -->
+        <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
+                        <p class="fw-bold">Besoin de me contacter ? Remplissez ce formulaire pour m'envoyer un message et je vous répondrez dès que possible !</p>
                         <div class="my-5">
-                            <!-- * * * * * * * * * * * * * * *-->
-                            <!-- * * SB Forms Contact Form * *-->
-                            <!-- * * * * * * * * * * * * * * *-->
-                            <!-- This form is pre-integrated with SB Forms.-->
-                            <!-- To make this form functional, sign up at-->
-                            <!-- https://startbootstrap.com/solution/contact-forms-->
-                            <!-- to get an API token!-->
-                            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+
+                            <form id="contactForm" action="" method="POST">
                                 <div class="form-floating">
                                     <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                    <label for="name">Name</label>
+                                    <label for="name">Prénom</label>
                                     <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                                 </div>
                                 <div class="form-floating">
                                     <input class="form-control" id="email" type="email" placeholder="Enter your email..." data-sb-validations="required,email" />
-                                    <label for="email">Email address</label>
+                                    <label for="email">Email</label>
                                     <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                                     <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                                </div>
-                                <div class="form-floating">
-                                    <input class="form-control" id="phone" type="tel" placeholder="Enter your phone number..." data-sb-validations="required" />
-                                    <label for="phone">Phone Number</label>
-                                    <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                                 </div>
                                 <div class="form-floating">
                                     <textarea class="form-control" id="message" placeholder="Enter your message here..." style="height: 12rem" data-sb-validations="required"></textarea>
@@ -77,7 +74,7 @@
                                 <!-- an error submitting the form-->
                                 <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                                 <!-- Submit Button-->
-                                <button class="btn btn-primary text-uppercase disabled" id="submitButton" type="submit">Send</button>
+                                <button class="btn btn-primary text-uppercase" id="submitButton" type="submit">Send</button>
                             </form>
                         </div>
                     </div>
